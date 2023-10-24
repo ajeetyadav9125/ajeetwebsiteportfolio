@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto">
+            <h1 class="text-2xl font-semibold text-white">My Portfolio</h1>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class=" hl bg-gray-200 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-semibold text-gray-800">Hello, I'm [Ajeet Kumar Yadav]</h2>
+            <p class="text-lg text-gray-600 mt-4">A fresher software engineer passionate about coding.</p>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800">About Me</h2>
+            <p class="text-lg text-gray-600 mt-4">"Hello, I'm Ajeet Yadav an enthusiastic and ambitious software developer who is passionate about technology and eager to embark on a journey in the world of software development. As a recent graduate with a degree in Bachelor of science and engineering, I bring a strong foundation in programming languages like Java , HTML , CSS ,DSA and a hunger to learn and grow in this dynamic field. I am excited to apply my problem-solving skills and creativity to contribute to innovative software solutions and collaborate with experienced professionals to achieve excellence in software development.".</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800">Technical Competencies</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <!-- Project Card Example -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-gray-800">JAVA, HTML, CSS, DSA</h3>
+                    
+                </div>
+
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-gray-800">Contact</h2>
+            <p class="text-lg text-gray-600 mt-4">Feel free to contact me via email: [kumajeet66@gmail.com]</p>
+        </div>
+    </section>
+    <!-- Projects Section -->
+<section class="bg-gray-200 py-16">
+<div class="container mx-auto">
+    <h2 class="text-3xl font-semibold text-gray-800">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <!-- Project Card Example 1 -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Project 1</h3>
+            <p class="text-gray-600 mt-2"> <b>Electricity Bill mangement System.</b> <br>
+            Desigen a website for manage Electricity bill, Performed web Development using HTML and CSS.</p>
+            
+        </div>
+
+        <!-- Project Card Example 2 -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Project 2</h3>
+            <p class="text-gray-600 mt-2"><b>E-Commerce website for Buisness.</b> <br> Designed a website for e-voting which company know about their auidence,Performed front-end Development.</p>
+        </div>
+
+        <!-- Add more project cards as needed -->
+    </div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="bg-gray-100 py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-semibold text-gray-800">Contact Me</h2>
+        <p class="text-lg text-gray-600 mt-4">Feel free to reach out to me using the contact information below:</p>
+        
+        <!-- Contact Information -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800">Email</h3>
+                <p class="text-gray-600 mt-2">kumajeet66@gmail.com</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800">LinkedIn</h3>
+                <p class="text-gray-600 mt-2"><a href="https://www.linkedin.com/in/ajeet-kumar-yadav-34b671230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+            </div>
+            <!-- You can add more contact information here, such as phone number or GitHub profile -->
+        </div>
+        
+        <!-- Contact Form (optional) -->
+        
+        <div class="mt-8">
+            <h class="text-xl font-semibold text-gray-800"> send me a message</h3>
+            <form>
+                <div class="mt-4">
+                    <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" required>
+                </div>
+                <div class="mt-4">
+                    <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" required>
+                </div>
+                <div class="mt-4">
+                    <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500" required></textarea>
+                </div>
+                <div class="mt-6">
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 focus:outline-none">Send</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</section>
+<!-- Add this style in the head section of your HTML file -->
+
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
